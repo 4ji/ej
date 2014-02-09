@@ -1,6 +1,6 @@
 #!/bin/bash
 # src: http://taka.no32.tk/diary/20050826.html
-KEY=`echo $@ | nkf -w -w80`
+KEY=`echo $@`
 echo $@ >> ~/.eng-list # 履歴を保存（不要なら削除）．
 URI="http://eow.alc.co.jp/$KEY/UTF-8/"
 #RS=`echo '▼ 検索結果本体 ▼' | nkf -w -w80`
