@@ -17,4 +17,5 @@ ej 亀
 
 ### こちらがオリジナルです
 [http://taka.no32.tk/diary/20050826.html](http://taka.no32.tk/diary/20050826.html)
+
 [http://d.hatena.ne.jp/aki-yam/20080629/](http://d.hatena.ne.jp/aki-yam/20080629/)
