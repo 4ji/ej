@@ -9,4 +9,4 @@ RS='検索結果本体'
 #RE=`echo '▲ 検索結果本体 ▲' | nkf -w -w80`
 RE='検索結果本体'
 curl  -e 'http://eow.alc.co.jp/' -A 'Mozilla/5.0' -s "$URI" | \
-sed -ne "/$RS/,/$RE/p" | w3m -dump -T 'text/html' | less 
+	sed -ne "/$RS/,/$RE/p" | w3m -dump -T 'text/html' |sed -e "s/\($KEY\)/[45m[37m\1[0m/g" |  less -R
