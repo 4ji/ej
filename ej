@@ -3,7 +3,8 @@
 #KEY=`echo $@ | nkf -WwMQ | tr = %`
 KEY=`echo $@ | sed 's/ /%20/'`
 echo $@ >> ~/.eng-list # 履歴を保存（不要なら削除）．
-URI="http://eow.alc.co.jp/$KEY/UTF-8/"
+#URI="http://eow.alc.co.jp/$KEY/UTF-8/"
+URI="http://eow.alc.co.jp/search?q=$KEY"
 #RS=`echo '▼ 検索結果本体 ▼' | nkf -w -w80`
 RS='検索結果本体'
 #RE=`echo '▲ 検索結果本体 ▲' | nkf -w -w80`
